@@ -14,7 +14,7 @@ const TestComponent = (props: Props) => {
         <div className="container">
           <a className="navbar-brand me-lg-5 me-0" href="index.html">
             <img
-              src="/src/images/pod-talk-logo.png"
+              src="/src/images/logo/camlamfoodlogoBGRM.png"
               className="logo-image img-fluid"
               alt="templatemo pod talk"
             />
@@ -32,7 +32,7 @@ const TestComponent = (props: Props) => {
                 type="search"
                 className="form-control"
                 id="search"
-                placeholder="Search Podcast"
+                placeholder="Tìm sản phẩm"
                 aria-label="Search"
               />
 
@@ -58,13 +58,13 @@ const TestComponent = (props: Props) => {
             <ul className="navbar-nav ms-lg-auto">
               <li className="nav-item">
                 <a className="nav-link active" href="index.html">
-                  Home
+                  Trang Chủ
                 </a>
               </li>
 
               <li className="nav-item">
                 <a className="nav-link" href="about.html">
-                  About
+                  Về Chúng tôi
                 </a>
               </li>
 
@@ -77,7 +77,7 @@ const TestComponent = (props: Props) => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Pages
+                  Trang
                 </a>
 
                 <ul
@@ -100,7 +100,7 @@ const TestComponent = (props: Props) => {
 
               <li className="nav-item">
                 <a className="nav-link" href="contact.html">
-                  Contact
+                  Liên hệ
                 </a>
               </li>
             </ul>
@@ -108,9 +108,9 @@ const TestComponent = (props: Props) => {
             <div className="ms-4">
               <a
                 href="#section_3"
-                className="btn custom-btn custom-border-btn smoothscroll"
+                className="btn custom-btn custom-border-btn smoothscroll text-capitalize"
               >
-                Get started
+                sản phẩm
               </a>
             </div>
           </div>
