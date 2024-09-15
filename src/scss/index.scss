@@ -193,6 +193,16 @@ main {
   color: var(--primary-color);
 }
 
+.owl-carousel .owl-item img.invert-icon {
+  filter: invert(100%);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
 /*---------------------------------------
   CUSTOM BUTTON               
 -----------------------------------------*/
@@ -253,7 +263,7 @@ main {
 -----------------------------------------*/
 .navbar {
   background-color: var(--white-color);
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -513,10 +523,10 @@ main {
 .owl-carousel-info {
   background-color: var(--section-bg-color);
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   right: 0;
-  left: 0;
+  left: 0; */
   padding: 30px;
 }
 
@@ -560,6 +570,7 @@ main {
   display: block;
   margin-bottom: 10px;
   margin-left: auto;
+  position: relative;
 }
 
 .owl-carousel-info-wrap .social-icon-link {
@@ -625,8 +636,8 @@ main {
 .custom-block-image {
   border-radius: var(--border-radius-medium);
   display: block;
-  width: 112px;
-  height: 112px;
+  height: 500px;
+  width: 500px;
   object-fit: cover;
 }
 

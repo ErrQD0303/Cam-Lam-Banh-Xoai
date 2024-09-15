@@ -122,31 +122,80 @@ const TestComponent = (props: Props) => {
           <div className="row">
             <div className="col-lg-12 col-12">
               <div className="text-center mb-5 pb-2">
-                <h1 className="text-white">Listen to Pod Talk</h1>
+                <h1 className="text-white text-text-capitalize">
+                  Cam Lâm Food
+                </h1>
 
-                <p className="text-white">
-                  Listen it everywhere. Explore your fav podcasts.
+                <p className="text-white fs-5">
+                  Xoài Sấy Tự Nhiên - Ngọt Dịu Từng Lát, Trọn Vẹn Từng Vị
                 </p>
 
                 <a
                   href="#section_2"
-                  className="btn custom-btn custom-border-btn smoothscroll mt-3"
+                  className="btn custom-btn custom-border-btn smoothscroll mt-3 text-uppercase"
                 >
-                  Start listening
+                  Sản phẩm
                 </a>
               </div>
 
               <div className="owl-carousel owl-theme">
                 <div className="owl-carousel-info-wrap item">
                   <img
-                    src="/src/images/profile/smiling-business-woman-with-folded-hands-against-white-wall-toothy-smile-crossed-arms.jpg"
+                    src="/src/images/product/full-product.jpg"
                     className="owl-carousel-image img-fluid"
                     alt=""
                   />
 
                   <div className="owl-carousel-info">
-                    <h4 className="mb-2">
-                      Candice
+                    <h4 className="mb-2 text-capitalize">Xoài Sấy</h4>
+
+                    <span className="badge">Quà Tặng</span>
+
+                    <span className="badge">Dẻo</span>
+
+                    <span className="badge">Muối ớt</span>
+                  </div>
+
+                  <div className="social-share">
+                    <ul className="social-icon">
+                      <li className="social-icon-item">
+                        <a
+                          href="
+                          https://shopee.vn/camlamfoods"
+                          className="social-icon-link bi-shopee"
+                          target="_blank"
+                          title="shopee"
+                        >
+                          <img
+                            src="/src/images/icons/shopee.png"
+                            alt="shopee icon"
+                            className="invert-icon"
+                          />
+                        </a>
+                      </li>
+
+                      <li className="social-icon-item">
+                        <a
+                          href="
+                          https://www.facebook.com/camlamfoods/"
+                          className="social-icon-link bi-facebook"
+                          title="facebook"
+                          target="_blank"
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="owl-carousel-info-wrap item">
+                  <img
+                    src="/src/images/product/high-plastic-bottle.jpg"
+                    className="owl-carousel-image img-fluid"
+                    alt=""
+                  />
+
+                  <div className="owl-carousel-info">
+                    <h4 className="mb-2 text-capitalize">
+                      Xoài sấy
                       <img
                         src="/src/images/verified.png"
                         className="owl-carousel-verified-image img-fluid"
@@ -154,37 +203,53 @@ const TestComponent = (props: Props) => {
                       />
                     </h4>
 
-                    <span className="badge">Storytelling</span>
+                    <span className="badge">Muối ớt</span>
 
-                    <span className="badge">Business</span>
+                    <span className="badge">Hộp</span>
+
+                    <span className="badge">500g</span>
                   </div>
 
                   <div className="social-share">
                     <ul className="social-icon">
                       <li className="social-icon-item">
-                        <a href="#" className="social-icon-link bi-twitter"></a>
+                        <a
+                          href="
+                          https://shopee.vn/camlamfoods"
+                          className="social-icon-link bi-shopee"
+                          target="_blank"
+                          title="shopee"
+                        >
+                          <img
+                            src="/src/images/icons/shopee.png"
+                            alt="shopee icon"
+                            className="invert-icon"
+                          />
+                        </a>
                       </li>
 
                       <li className="social-icon-item">
                         <a
-                          href="#"
+                          href="
+                          https://www.facebook.com/camlamfoods/"
                           className="social-icon-link bi-facebook"
+                          title="facebook"
+                          target="_blank"
                         ></a>
                       </li>
                     </ul>
                   </div>
                 </div>
-
                 <div className="owl-carousel-info-wrap item">
                   <img
-                    src="/src/images/profile/handsome-asian-man-listening-music-through-headphones.jpg"
+                    src="/src/images/product/short-plastic-bottle.jpg"
                     className="owl-carousel-image img-fluid"
                     alt=""
                   />
 
                   <div className="owl-carousel-info">
-                    <h4 className="mb-2">
-                      William
+                    <h4 className="mb-2 text-capitalize">
+                      Xoài sấy
                       <img
                         src="/src/images/verified.png"
                         className="owl-carousel-verified-image img-fluid"
@@ -192,111 +257,53 @@ const TestComponent = (props: Props) => {
                       />
                     </h4>
 
-                    <span className="badge">Creative</span>
+                    <span className="badge">Muối ớt</span>
 
-                    <span className="badge">Design</span>
+                    <span className="badge">Hộp</span>
+
+                    <span className="badge">250g</span>
                   </div>
 
                   <div className="social-share">
                     <ul className="social-icon">
                       <li className="social-icon-item">
-                        <a href="#" className="social-icon-link bi-twitter"></a>
+                        <a
+                          href="
+                          https://shopee.vn/camlamfoods"
+                          className="social-icon-link bi-shopee"
+                          target="_blank"
+                          title="shopee"
+                        >
+                          <img
+                            src="/src/images/icons/shopee.png"
+                            alt="shopee icon"
+                            className="invert-icon"
+                          />
+                        </a>
                       </li>
 
                       <li className="social-icon-item">
                         <a
-                          href="#"
+                          href="
+                          https://www.facebook.com/camlamfoods/"
                           className="social-icon-link bi-facebook"
-                        ></a>
-                      </li>
-
-                      <li className="social-icon-item">
-                        <a
-                          href="#"
-                          className="social-icon-link bi-pinterest"
+                          title="facebook"
+                          target="_blank"
                         ></a>
                       </li>
                     </ul>
                   </div>
                 </div>
-
                 <div className="owl-carousel-info-wrap item">
                   <img
-                    src="/src/images/profile/cute-smiling-woman-outdoor-portrait.jpg"
+                    src="/src/images/product/packet.jpg"
                     className="owl-carousel-image img-fluid"
                     alt=""
                   />
 
                   <div className="owl-carousel-info">
-                    <h4 className="mb-2">Taylor</h4>
-
-                    <span className="badge">Modeling</span>
-
-                    <span className="badge">Fashion</span>
-                  </div>
-
-                  <div className="social-share">
-                    <ul className="social-icon">
-                      <li className="social-icon-item">
-                        <a href="#" className="social-icon-link bi-twitter"></a>
-                      </li>
-
-                      <li className="social-icon-item">
-                        <a
-                          href="#"
-                          className="social-icon-link bi-facebook"
-                        ></a>
-                      </li>
-
-                      <li className="social-icon-item">
-                        <a
-                          href="#"
-                          className="social-icon-link bi-pinterest"
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="owl-carousel-info-wrap item">
-                  <img
-                    src="/src/images/profile/man-portrait.jpg"
-                    className="owl-carousel-image img-fluid"
-                    alt=""
-                  />
-
-                  <div className="owl-carousel-info">
-                    <h4 className="mb-2">Nick</h4>
-
-                    <span className="badge">Acting</span>
-                  </div>
-
-                  <div className="social-share">
-                    <ul className="social-icon">
-                      <li className="social-icon-item">
-                        <a
-                          href="#"
-                          className="social-icon-link bi-instagram"
-                        ></a>
-                      </li>
-
-                      <li className="social-icon-item">
-                        <a href="#" className="social-icon-link bi-youtube"></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="owl-carousel-info-wrap item">
-                  <img
-                    src="/src/images/profile/woman-posing-black-dress-medium-shot.jpg"
-                    className="owl-carousel-image img-fluid"
-                    alt=""
-                  />
-
-                  <div className="owl-carousel-info">
-                    <h4 className="mb-2">
-                      Elsa
+                    <h4 className="mb-2 text-capitalize">
+                      Xoài sấy
                       <img
                         src="/src/images/verified.png"
                         className="owl-carousel-verified-image img-fluid"
@@ -304,51 +311,88 @@ const TestComponent = (props: Props) => {
                       />
                     </h4>
 
-                    <span className="badge">Influencer</span>
+                    <span className="badge">Dẻo</span>
+
+                    <span className="badge">Gói giấy</span>
+
+                    <span className="badge">250g</span>
                   </div>
 
                   <div className="social-share">
                     <ul className="social-icon">
                       <li className="social-icon-item">
                         <a
-                          href="#"
-                          className="social-icon-link bi-instagram"
-                        ></a>
+                          href="
+                          https://shopee.vn/camlamfoods"
+                          className="social-icon-link bi-shopee"
+                          target="_blank"
+                          title="shopee"
+                        >
+                          <img
+                            src="/src/images/icons/shopee.png"
+                            alt="shopee icon"
+                            className="invert-icon"
+                          />
+                        </a>
                       </li>
 
                       <li className="social-icon-item">
-                        <a href="#" className="social-icon-link bi-youtube"></a>
+                        <a
+                          href="
+                          https://www.facebook.com/camlamfoods/"
+                          className="social-icon-link bi-facebook"
+                          title="facebook"
+                          target="_blank"
+                        ></a>
                       </li>
                     </ul>
                   </div>
                 </div>
-
                 <div className="owl-carousel-info-wrap item">
                   <img
-                    src="/src/images/profile/smart-attractive-asian-glasses-male-standing-smile-with-freshness-joyful-casual-blue-shirt-portrait-white-background.jpg"
+                    src="/src/images/product/packet-2.jpg"
                     className="owl-carousel-image img-fluid"
                     alt=""
                   />
 
                   <div className="owl-carousel-info">
-                    <h4 className="mb-2">Chan</h4>
+                    <h4 className="mb-2 text-capitalize">
+                      Xoài sấy
+                      <img
+                        src="/src/images/verified.png"
+                        className="owl-carousel-verified-image img-fluid"
+                        alt=""
+                      />
+                    </h4>
 
-                    <span className="badge">Education</span>
+                    <span className="badge">Muối ớt</span>
+
+                    <span className="badge">Gói giấy</span>
+
+                    <span className="badge">250g</span>
                   </div>
 
                   <div className="social-share">
                     <ul className="social-icon">
                       <li className="social-icon-item">
                         <a
-                          href="#"
-                          className="social-icon-link bi-linkedin"
-                        ></a>
+                          href="
+                          https://shopee.vn/camlamfoods"
+                          className="social-icon-link bi-shopee"
+                        >
+                          <img
+                            src="/src/images/icons/shopee.png"
+                            alt="shopee icon"
+                            className="invert-icon"
+                          />
+                        </a>
                       </li>
 
                       <li className="social-icon-item">
                         <a
-                          href="#"
-                          className="social-icon-link bi-whatsapp"
+                          href="
+                          https://www.facebook.com/camlamfoods/"
+                          className="social-icon-link bi-facebook"
                         ></a>
                       </li>
                     </ul>
@@ -368,13 +412,13 @@ const TestComponent = (props: Props) => {
           <div className="row justify-content-center">
             <div className="col-lg-12 col-12">
               <div className="section-title-wrap mb-5">
-                <h4 className="section-title">Lastest episodes</h4>
+                <h4 className="section-title text-capitalize">Sản phẩm</h4>
               </div>
             </div>
 
-            <div className="col-lg-6 col-12 mb-4 mb-lg-0">
+            <div className="col-12 mb-4 mb-lg-0">
               <div className="custom-block d-flex">
-                <div className="">
+                <div className="flex-shrink-0">
                   <div className="custom-block-icon-wrap">
                     <div className="section-overlay"></div>
                     <a
@@ -382,62 +426,27 @@ const TestComponent = (props: Props) => {
                       className="custom-block-image-wrap"
                     >
                       <img
-                        src="/src/images/podcast/11683425_4790593.jpg"
+                        src="/src/images/product/packet.jpg"
                         className="custom-block-image img-fluid"
                         alt=""
                       />
-
-                      <a href="#" className="custom-block-icon">
-                        <i className="bi-play-fill"></i>
-                      </a>
-                    </a>
-                  </div>
-
-                  <div className="mt-2">
-                    <a href="#" className="btn custom-btn">
-                      {" "}
-                      Subscribe{" "}
                     </a>
                   </div>
                 </div>
 
-                <div className="custom-block-info">
-                  <div className="custom-block-top d-flex mb-1">
-                    <small className="me-4">
-                      <i className="bi-clock-fill custom-icon"></i>
-                      50 Minutes
-                    </small>
-
-                    <small>
-                      Episode <span className="badge">15</span>
-                    </small>
-                  </div>
-
-                  <h5 className="mb-2">
-                    <a href="detail-page.html"> Modern Vintage </a>
+                <div className="custom-block-info ms-5">
+                  <h5 className="mb-2 mt-5">
+                    <a href="detail-page.html"> Xoài sấy dẻo </a>
                   </h5>
 
-                  <div className="profile-block d-flex">
-                    <img
-                      src="/src/images/profile/woman-posing-black-dress-medium-shot.jpg"
-                      className="profile-block-image img-fluid"
-                      alt=""
-                    />
+                  <p className="mb-0">
+                    Xoài sấy dẻo là sản phẩm được làm từ những quả xoài tươi,
+                    qua quy trình sấy khô nhưng vẫn giữ được độ dẻo mềm tự
+                    nhiên. Xoài sấy dẻo có vị ngọt thanh, giàu vitamin và chất
+                    xơ, thích hợp làm món ăn vặt bổ dưỡng, tiện lợi.
+                  </p>
 
-                    <p>
-                      Elsa
-                      <img
-                        src="/src/images/verified.png"
-                        className="verified-image img-fluid"
-                        alt=""
-                      />
-                      <strong>Influencer</strong>
-                    </p>
-                  </div>
-
-                  <p className="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-
-                  <div className="custom-block-bottom d-flex justify-content-between mt-3">
+                  {/* <div className="custom-block-bottom d-flex justify-content-between mt-3">
                     <a href="#" className="bi-headphones me-1">
                       <span>120k</span>
                     </a>
@@ -453,24 +462,22 @@ const TestComponent = (props: Props) => {
                     <a href="#" className="bi-download">
                       <span>50k</span>
                     </a>
+                  </div> */}
+                  <div className="mt-4">
+                    <a
+                      href="https://shopee.vn/camlamfoods"
+                      className="btn custom-btn text-capitalize"
+                      target="_blank"
+                    >
+                      Đặt mua ngay
+                    </a>
                   </div>
-                </div>
-
-                <div className="d-flex flex-column ms-auto">
-                  <a href="#" className="badge ms-auto">
-                    <i className="bi-heart"></i>
-                  </a>
-
-                  <a href="#" className="badge ms-auto">
-                    <i className="bi-bookmark"></i>
-                  </a>
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-6 col-12">
+            <div className="col-12 mb-4 mb-lg-0 mt-4 product__item">
               <div className="custom-block d-flex">
-                <div className="">
+                <div className="flex-shrink-0 order-2">
                   <div className="custom-block-icon-wrap">
                     <div className="section-overlay"></div>
                     <a
@@ -478,82 +485,102 @@ const TestComponent = (props: Props) => {
                       className="custom-block-image-wrap"
                     >
                       <img
-                        src="/src/images/podcast/12577967_02.jpg"
+                        src="/src/images/product/high-plastic-bottle.jpg"
                         className="custom-block-image img-fluid"
                         alt=""
                       />
-
-                      <a href="#" className="custom-block-icon">
-                        <i className="bi-play-fill"></i>
-                      </a>
-                    </a>
-                  </div>
-
-                  <div className="mt-2">
-                    <a href="#" className="btn custom-btn">
-                      {" "}
-                      Subscribe{" "}
                     </a>
                   </div>
                 </div>
 
-                <div className="custom-block-info">
-                  <div className="custom-block-top d-flex mb-1">
-                    <small className="me-4">
-                      <i className="bi-clock-fill custom-icon"></i>
-                      15 Minutes
-                    </small>
-
-                    <small>
-                      Episode <span className="badge">45</span>
-                    </small>
-                  </div>
-
-                  <h5 className="mb-2">
-                    <a href="detail-page.html"> Daily Talk </a>
+                <div className="custom-block-info flex-grow-1 me-5  text-center">
+                  <h5 className="mb-2 mt-5">
+                    <a href="detail-page.html"> Xoài sấy muối ớt </a>
                   </h5>
 
-                  <div className="profile-block d-flex">
-                    <img
-                      src="/src/images/profile/handsome-asian-man-listening-music-through-headphones.jpg"
-                      className="profile-block-image img-fluid"
-                      alt=""
-                    />
-
-                    <p>
-                      William <strong>Vlogger</strong>
-                    </p>
+                  <p className="mb-0">
+                    Muối ớt là loại gia vị truyền thống, kết hợp giữa vị mặn của
+                    muối biển và vị cay nồng của ớt tươi. Muối ớt thường được
+                    dùng để chấm hoa quả hoặc ăn kèm với các món ăn, tạo nên
+                    hương vị đậm đà và hấp dẫn. Đây là lựa chọn tuyệt vời để kết
+                    hợp với các món xoài, tạo ra sự cân bằng giữa vị ngọt và
+                    cay.
+                  </p>
+                  <div className="mt-4">
+                    <a
+                      href="https://shopee.vn/camlamfoods"
+                      className="btn custom-btn text-capitalize"
+                      target="_blank"
+                    >
+                      Đặt mua ngay
+                    </a>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 mb-4 mb-lg-0">
+              <div className="custom-block d-flex">
+                <div className="flex-shrink-0">
+                  <div className="custom-block-icon-wrap">
+                    <div className="section-overlay"></div>
+                    <a
+                      href="detail-page.html"
+                      className="custom-block-image-wrap"
+                    >
+                      <img
+                        src="/src/images/product/full-product.jpg"
+                        className="custom-block-image img-fluid"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
 
-                  <p className="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                <div className="custom-block-info ms-5">
+                  <h5 className="mb-2 mt-5">
+                    <a href="detail-page.html"> Bộ quà tặng xoài sấy </a>
+                  </h5>
 
-                  <div className="custom-block-bottom d-flex justify-content-between mt-3">
+                  <p className="mb-0">
+                    Kết hợp các loại xoài sấy khác nhau là món quà đặc biệt dành
+                    tặng cho những ai yêu thích hương vị trái cây tự nhiên. Bộ
+                    quà bao gồm nhiều loại xoài sấy độc đáo như xoài sấy dẻo,
+                    xoài sấy giòn, và xoài sấy kèm muối ớt, mang lại trải nghiệm
+                    phong phú về vị giác. Mỗi loại xoài sấy được chọn lọc từ
+                    những quả xoài chín mọng, giàu dưỡng chất, đảm bảo giữ
+                    nguyên hương vị tự nhiên cùng các lợi ích cho sức khỏe. Được
+                    đựng trong hộp sang trọng và tinh tế, bộ quà tặng này không
+                    chỉ là món ăn vặt hấp dẫn mà còn là một lựa chọn hoàn hảo để
+                    làm quà tặng ý nghĩa cho bạn bè, gia đình, đối tác trong các
+                    dịp đặc biệt.
+                  </p>
+
+                  {/* <div className="custom-block-bottom d-flex justify-content-between mt-3">
                     <a href="#" className="bi-headphones me-1">
-                      <span>140k</span>
+                      <span>120k</span>
                     </a>
 
                     <a href="#" className="bi-heart me-1">
-                      <span>22.4k</span>
+                      <span>42.5k</span>
                     </a>
 
                     <a href="#" className="bi-chat me-1">
-                      <span>16k</span>
+                      <span>11k</span>
                     </a>
 
                     <a href="#" className="bi-download">
-                      <span>62k</span>
+                      <span>50k</span>
+                    </a>
+                  </div> */}
+                  <div className="mt-4">
+                    <a
+                      href="https://shopee.vn/camlamfoods"
+                      className="btn custom-btn text-capitalize"
+                      target="_blank"
+                    >
+                      Đặt mua ngay
                     </a>
                   </div>
-                </div>
-
-                <div className="d-flex flex-column ms-auto">
-                  <a href="#" className="badge ms-auto">
-                    <i className="bi-heart"></i>
-                  </a>
-
-                  <a href="#" className="badge ms-auto">
-                    <i className="bi-bookmark"></i>
-                  </a>
                 </div>
               </div>
             </div>
